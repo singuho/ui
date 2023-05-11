@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>메뉴1을 클릭하면 네이버로 이동하는 예제</title>
+    <style>
+      /* 메뉴 스타일 */
+      .menu {
+        display: flex;
+        justify-content: space-between;
+        background-color: #f1f1f1;
+        padding: 10px;
+      }
+      
+      /* 메뉴 항목 스타일 */
+      .menu-item {
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer; /* 포인터 커서를 설정하여 클릭 가능함을 나타냄 */
+      }
+      
+      /* 컨텐츠 스타일 */
+      .content {
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="menu">
+      <div class="menu-item" onclick="window.location.href='https://www.naver.com/'">메뉴1</div>
+      <div class="menu-item">메뉴2</div>
+    </div>
+    <div class="content">
+      <h1>메뉴1 컨텐츠</h1>
+      <p>메뉴1에 대한 내용을 작성합니다.</p>
+    </div>
+    <div class="content">
+      <h1>메뉴2 컨텐츠</h1>
+      <p>메뉴2에 대한 내용을 작성합니다.</p>
+    </div>
+  </body>
+</html>
+
+
